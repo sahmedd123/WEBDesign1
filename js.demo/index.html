@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Demo</title>
+</head>
+<body>
+   <h1>Lets learn javascript! yay!! </h1> 
+
+   <h2>How to do onclick events:</h2>
+   <a href="https://www.eastsideprep.org/" onclick="alert('Warning! you are leaving this page!!')">School website</a>
+<hr>
+   <h2> Display a secret message on button click</h2>
+<p id="secret"></p>
+<button
+onclick="document.getElementById('secret').innerHTML='shhhh very very secret'; 
+getElementById('secret').style.display= 'block' "
+>Reveal!</button>
+
+<button onclick="getElementById('secret').style.display='none'" > 
+     Hide!</button>
+
+<hr>
+<form>
+   <label for="fname">First name:</label><br>
+   <input type="text" id="fname" name="fname"><br>
+   <label for="lname">Last name:</label> <br>
+   <input type="text" id="lname" name="lname"><br>
+   <label for="age">Age:</label><br>
+   <input type="text" id="age" name="age"><br>
+   <br>
+   <input type="Submit" value="Submit" onclick="hello()">
+   <input type="Reset" value="Reset"><br>
+
+ </form>
+
+ <script>
+   function hello(){
+let name = document.getElementById('fname').value;
+alert(name);
+   }
+ </script>
+<hr>
+
+
+
+
+</body>
+</html>
