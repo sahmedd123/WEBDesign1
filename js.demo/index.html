@@ -42,9 +42,42 @@ alert(name);
    }
  </script>
 <hr>
+<h2>Two truths and a lie!</h2>
+<h3>select which one you think is the lie!</h3>
+<form id="2truths">
+<input type="radio" id= question1 name="2truthsandlie" value="truth"> 
+<label for="question1">I have been to Iceland</label><br>
+<input type="radio" id="question2" name="2truthsandlie" value="truth">
+<label for="question2">I have been to Belguim</label><br>
+<input type="radio" id="question3" name="2truthsandlie" value="lie">
+<label for="question3">I have been to Germany</label><br>
+<input type="button" value="Submit" onclick="checkTruth()">
+</form>
 
+<p id="answer"></p>
 
+<script>
+   function checkTruth() {
+   let answerTag = document.getElementById('answer')
+      if(document.getElementById('question1').checked) {
+    answerTag.innerHTML = 'truth';
+    answerTag.style.color = "green";
+    answerTag.style.display = 'block';
+   }
+   if(document.getElementById('question2').checked) {
+    answerTag.innerHTML = 'truth';
+    answerTag.style.color = "green";
+    answerTag.style.display = 'block';
+   }
+   if(document.getElementById('question3').checked) {
+    answerTag.innerHTML = 'lie';
+    answerTag.style.color = "red";
+    answerTag.style.display = 'block';
+   }
+
+   }
+</script>
 
 
 </body>
-</html>
+</html> 
