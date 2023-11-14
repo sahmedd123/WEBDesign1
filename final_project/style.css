@@ -1,32 +1,117 @@
 body {
-    background-color: seashell
-}
-.container {
-width: 800px;
-margin: 0 auto;  
-border: 50 px rgb(10, 67, 114);
-background-color:rgb(150, 190, 241);
-display: inline;
-}
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  background-color: seashell;
+  border-color: #869cff;
+  border-style: solid;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #a8cae6;
+      border-color: #8a95c6;
+      border-width: 15px;
+    }
+    
+    li {
+      float:left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .missionstatement {
+      background-color: #869cff;
+      border-width: 15px;
+      border-style: solid;
+      border-color: #4b468a;
+    }
 
-ul {
-  list-style-type: none;
-  margin: 50;
-  padding: 0;
-  overflow: hidden;
-  border: 50 px olive;
-  background-color:rgb(23, 65, 43);
-  display: inline;
-  text-align: center;
-}
-  li {
-  float: left;
-}
+    .character {
+      background-color: #87b6dc;
+      border-width: 15px;
+      border-style: groove;
+      border-color: #4b468a;
+    }
 
-li a {
-  display: block;
-  color: rgb(9, 37, 130);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+    .opportunity {
+      background-color: #87b6dc;
+      border-width: 15px;
+      border-style: groove;
+      border-color: #4b468a;
+    }
+
+    .growth {
+      background-color: #87b6dc;
+      border-width: 15px;
+      border-style: groove;
+      border-color: #4b468a;
+    }
+
+
+
+    li a:hover {
+      background-color: #8a95c6;
+    }
+      
+  
+    .table {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    .table td, .customers th {
+      border: 1px solid #0c0a4c;
+      padding: 8px;
+    }
+    
+    .table tr:nth-child(even){background-color: lightblue;}
+    .table tr:nth-child(odd){background-color:lightskyblue}
+  
+    
+    .table tr:hover {background-color: #ddd;}
+    
+    .table th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #0c0a4c;
+      color: white;
+    }
+
+
+    div.gallery {
+        margin: 5px;
+        text-align: center;
+        border: 1px solid #4b468a;
+        float: left;
+        width: 360px;
+        ;
+
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: 500px;
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+      }
+      
