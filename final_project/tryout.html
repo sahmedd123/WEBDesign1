@@ -5,6 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        
+.grid-container {
+display: grid;
+grid-gap: 10px;
+grid-template-columns: auto auto 25%;
+}
+
+.grid-item {
+background-color: rgb(153, 186, 215);
+text-align: center;
+font-size: 30px;
+padding: 20px;
+}
+
+.navmenu {
+grid-row: 1;
+grid-column: 1 / span 3;
+}
+
+.main-image {
+grid-column: 1/ span 3;
+grid-row: 2;
+}
+
+.main1 {
+    grid-column: 1 / span 2;
+grid-row: 3;
+}
+
+.main2 {
+    grid-column: 1 / span 2;
+grid-row: 4
+}
+
+.sidenav {
+grid-column: 3;
+grid-row: 3 / span 2;
+}
+    </style>
 </head>
 <body>
     <div>
@@ -15,4 +55,38 @@
 <li><a href="tryout.html">Tryouts</a></li>
 <li><a href="coaches.html">Coaches</a></li>
     </ul>
+    <div class="title2"><h1>Tryouts</h1></div>
+       
+<div class="grid-item main1" style="text-align: center; color: rgb(4, 33, 74);">
+    <img src="images/chart for tryouts.webp">
+</div>        
+<div class="grid-item main2" style="text-align: center; color: rgb(4, 33, 74);">
+    If on mobile, click this link for easier form viewing and completion: <a href="https://forms.gle/ew3meffyLwc4K29z5"></a>
+    </div>    
+<div class="grid-item sidenav" style="text-align: center; color: rgb(4, 33, 74);" >
+    <h2>So you want to tryout but can't make tryouts...</h2>
+ 
+
+    <h3>Players should be aware that not attending the full tryout is a disadvantage, so they should make every effort to attend all three weeks if possible.</h3>
     
+     
+    <ul>
+    If they cannot attend:
+    
+    <li>1. Complete the tryout registration form. Note that you will be completing the late tryout application process in the "other comments" question at the end.
+    
+    <li>2. Players must write a cover letter answering: Why are you a good fit for this program and its mission? What do you hope to bring to this program? What do you hope to get out of this experience?
+    
+    <li>3. Player must provide a non-family reference contact with cover letter (email or phone)</li>  
+    
+   <li>4. Send this information, subject: Late Tryout: [your name],  to sevenhillsultimate@gmail.com by the Friday before your tryout.</li>
+
+    Late tryouts will be announced along with the team selection announcement. If you are invited for a late tryout, you will be expected at the first practice as your tryout.</li>
+</div>    
+</ul>
+         </div>
+         <div class="footer">
+            Created by &copy; Ahmed and WebDesign Class Fall 2023
+         </div>
+</body>
+</html>

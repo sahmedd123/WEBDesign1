@@ -1,8 +1,8 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-  background-color: seashell;
-  border-color: #869cff;
+  background-color: rgb(170, 210, 255);
+  border-color: #9dacf0;
   border-style: solid;
   }
   
@@ -28,35 +28,99 @@ body {
       text-decoration: none;
     }
     
+    .title { 
+      color-scheme: rgb(43, 64, 50) rgb(68, 137, 105) rgb(27, 57, 123) rgb(124, 164, 232) rgb(238, 234, 234); 
+      grid-row: 1;
+grid-column: 1 / span 3;
+    }   
+    
+    .title2 { 
+      color-scheme: rgb(43, 64, 50) rgb(68, 137, 105) rgb(27, 57, 123) rgb(124, 164, 232) rgb(238, 234, 234); 
+      grid-row: 1;
+grid-column: 1 / span 3;
+    }   
     .missionstatement {
-      background-color: #869cff;
+      background-color: #c7cff0;
       border-width: 15px;
       border-style: solid;
-      border-color: #4b468a;
+      border-color: #a3b6ee;
+      grid-row: 3;
+grid-column: 1 / span 3;
     }
 
     .character {
-      background-color: #87b6dc;
+      background-color: #a4d5fc;
       border-width: 15px;
       border-style: groove;
-      border-color: #4b468a;
+      border-color: #6f91cb;
+      grid-row: 5 / span 2;
+grid-column: 1 / span 3;
     }
 
     .opportunity {
-      background-color: #87b6dc;
+      background-color: #98bddb;
       border-width: 15px;
       border-style: groove;
-      border-color: #4b468a;
+      border-color: #6f89c0;
+      grid-row: 6 / span 2;
+grid-column: 1 / span 3;
     }
 
     .growth {
-      background-color: #87b6dc;
+      background-color: #9ec2e0;
       border-width: 15px;
       border-style: groove;
-      border-color: #4b468a;
+      border-color: #536c97;
+      grid-row: 7 / span 2;
+grid-column: 1 / span 3;
     }
 
+    .mission {
+      background-color: #98bddb;
+      border-width: 15px;
+      border-style: groove;
+      border-color: #6f89c0;
+      grid-row: 6 / span 2;
+grid-column: 1 / span 3;
+    }
+    
 
+    .expectations {
+      background-color: #b1d5f3;
+      border-width: 15px;
+      border-style: groove;
+      border-color: #8398c7;
+      grid-row: 3 / span 2;
+grid-column: 1 / span 2;
+    }
+
+    .clubstory {
+      background-color: #93a2ae;
+      border-width: 15px;
+      border-style: groove;
+      border-color: #001644;
+      grid-row: 3 / span 2;
+grid-column: 1 / span 2;
+    }
+    }
+
+    .ourvalues {
+      background-color: #98bddb;
+      border-width: 15px;
+      border-style: groove;
+      border-color: #6f89c0;
+      grid-row: 6 / span 2;
+grid-column: 1 / span 3;
+    }
+
+    .questions {
+      background-color: #98bddb;
+      border-width: 15px;
+      border-style: groove;
+      border-color: #6f89c0;
+      grid-row: 6 / span 2;
+grid-column: 1 / span 3;
+    }
 
     li a:hover {
       background-color: #8a95c6;
@@ -95,6 +159,7 @@ body {
         border: 1px solid #4b468a;
         float: left;
         width: 360px;
+      
         ;
 
       }
@@ -112,6 +177,16 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
-     
+        grid-row: 2 / span 2;
+        grid-column: 1 / span 3;
       }
       
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        background-color: rgb(23, 58, 99);
+    }
